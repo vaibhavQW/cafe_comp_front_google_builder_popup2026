@@ -91,3 +91,4 @@ Then open `https://<frontend-url>/c/demo/qr`, print the codes, and stick them on
 | GET | `/api/cafes/{slug}/room` | session + visible check-in (Gemini) |
 | GET | `/api/cafes/{slug}/people/{id}/icebreaker` | session + visible check-in (Gemini) |
 | GET/POST | `/api/cafes/{slug}/staff/orders[/{id}]` | `X-Staff-Pin` |
+# cafe_comp_front_google_builder_popup2026
