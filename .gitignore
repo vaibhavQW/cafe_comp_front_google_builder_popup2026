@@ -1,0 +1,42 @@
+# ---- Secrets / local config (commit .env.example instead)
+.env
+.env.*
+!.env.example
+
+# ---- Local SQLite database
+*.db
+*.db-wal
+*.db-shm
+*.sqlite3
+data/
+
+# ---- Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# ---- Virtual environments
+.venv/
+venv/
+env/
+
+# ---- Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ---- Google Cloud credentials (never commit)
+*-credentials.json
+service-account*.json
+application_default_credentials.json
+
+# ---- Editors / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
